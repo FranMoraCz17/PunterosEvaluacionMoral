@@ -9,5 +9,7 @@ int main()
 
     productPrices = new int[length];
 
+
+
 }
 
