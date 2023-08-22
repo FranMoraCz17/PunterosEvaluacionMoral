@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="punteros.cpp" />
     <ClCompile Include="PunterosEvaluacionMoral.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="moralEvualuation.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
