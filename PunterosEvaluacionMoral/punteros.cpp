@@ -30,3 +30,5 @@ float getAveragePrice(int*& registerBox, const int length)
 	return average;
 }
 
+int sumHigherPrices (int*& registerBox, int length, int )
+
