@@ -13,18 +13,20 @@ void fillArrayWithPrices(int*& registerBox, const int length)
 
 }
 
-float getAvearagePrices(int*& registerBox, const int length)
+float getAveragePrice(int*& registerBox, const int length)
 {
 	float average = 0;
-	float sumPrices = 0;
-	
+	int sumPrices = 0;
+	int lowerPrice = 0; 
 	for (int i = 0; i < length; i++) {
 		
 		sumPrices += registerBox[i];
+		if (registerBox[i] > lowerPrice) {
+			lowerPrice = registerBox[i];
+		}
 	}
-	average = sumPrices / length;
+	average = (sumPrices-lowerPrice) / length;
 
 	return average;
 }
 
-float 

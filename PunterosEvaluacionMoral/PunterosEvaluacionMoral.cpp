@@ -1,6 +1,7 @@
 #include "moralEvualuation.h"
 #include <iostream>
 
+using namespace std;
 int main()
 {
 
@@ -10,7 +11,7 @@ int main()
     productPrices = new int[length];
 
     fillArrayWithPrices(productPrices, length); 
-
+    cout<<"The average of all the prices is: "<<getAveragePrice(productPrices, length);
 
 }
 

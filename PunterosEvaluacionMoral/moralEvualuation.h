@@ -1,5 +1,5 @@
 #pragma once
 
 void fillArrayWithPrices(int*& , const int);
-void getAveragePrices(int*&, const int);
+float getAveragePrice(int*&, const int);
 
