@@ -9,6 +9,7 @@ int main()
 
     productPrices = new int[length];
 
+    fillArrayWithPrices(productPrices, length); 
 
 
 }
